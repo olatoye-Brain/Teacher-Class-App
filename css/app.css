@@ -1,0 +1,94 @@
+.bg-color{
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: bottom center
+}
+
+.bgBlack{
+    background: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: bottom center
+}
+
+.banner-text{
+    position: relative;
+    background-color: white;
+    width: 90%;
+    min-height: 50%;
+    margin: 70px auto;
+    text-align: center;
+    padding: 20px 20px;
+    opacity: 0.95;
+    color:#000;
+    border-radius: 7px;
+    margin-bottom: 20px
+}
+
+.jumbotron{
+    border-radius: 5px !important;
+}
+
+.mr{
+    float: right;
+    font-size: 10px
+}
+
+.ml{
+    float: left
+}
+
+
+td img{
+    width: 15px
+}
+
+.clearfix{
+    clear: both
+}
+
+input[type="submit"]:focus{
+    outline: none
+}
+
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    /* background-color: red; */
+}
+.mx-6 {
+    margin-right: 3.2rem !important;
+    margin-left: 3.2rem !important;
+}
+
+.r5{
+    border-radius: 5px !important;
+}
+
+.display-2{
+    font-weight: 400
+}
+
+.capText{
+    text-transform: capitalize
+}
+
+.btn-primary:focus, .btn-primary.focus{
+ box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+ box-shadow: none
+}
+.imgs{
+    width: 80vh;
+    height: inherit;
+    margin: 100px auto;
+    overflow: hidden
+}
+.td{
+padding-top: 10px !important;
+font: bolder;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0
+}
+
